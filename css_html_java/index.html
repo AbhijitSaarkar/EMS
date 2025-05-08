@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Linkedin
+    <div id="posts"></div>
+
+    <script>
+        async function getRecentPost(){
+            console.log("before sending request")
+            const response =await fetch("https://google.com")
+                .then(function(data){
+                    const data = response.json().then(function(data){
+                        document.getElementById("posts").innerHTML = data.body
+                    }
+                
+
+                    
+                )
+                })
+            async function getRecntPost(){
+                console.lgo("before sending request");
+                await fetch("before sending request");
+                await fetch ("https://google.com")
+                    .then(function (response){
+                        response.json().then (function(data){
+                            console.log(data);
+                            console.log("request has been processed")
+                            document.getElementById("post").innerHTML = json.strigify(data)
+                        })
+                    })
+            }
+        }
+        async function name(params) {
+            async
+        } getRecentPost();
+        
+    </script>
+</body>
+</html>
